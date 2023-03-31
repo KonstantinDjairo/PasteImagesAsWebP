@@ -1,5 +1,6 @@
 ## Paste Images As WebP - configuration
 
+* `convert_when_detected` - Convert any image that is detected in anki collection, from any sources.
 * `avoid_upscaling` - Don't resize an image when its original size is less than requested.
 * `bulk_convert_fields` - List of fields where the add-on looks for images when bulk-converting.
 * `bulk_reconvert_webp` - Reconvert existing WebP images when bulk-converting.
