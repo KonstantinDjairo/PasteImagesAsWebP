@@ -166,6 +166,7 @@ class SettingsMenuDialog(SettingsDialog):
     """Settings dialog available from the main menu."""
 
     _checkboxes = {
+        'convert_when_detected': 'Convert any detected image'
         'drag_and_drop': 'Convert images on drag and drop',
         'copy_paste': 'Convert images on copy-paste',
         'avoid_upscaling': 'Avoid upscaling',
